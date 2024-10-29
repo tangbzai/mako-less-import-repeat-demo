@@ -5,5 +5,6 @@ export default defineConfig({
     { path: "/", component: "index" },
     { path: "/docs", component: "docs" },
   ],
+  mako: {},
   npmClient: 'pnpm',
 });
